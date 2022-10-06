@@ -19,6 +19,11 @@ function clearPrevious(){
     marimbaBars.forEach(bar => bar.innerText = '')
 }
 
+// Audio 
+let c4aud = new Audio('audio/C4 - R.mp3')
+let d4aud = new Audio('audio/D4 - R.mp3')
+
+
 // Scale Functions
 function cMajor(){
     // Selected Scale
